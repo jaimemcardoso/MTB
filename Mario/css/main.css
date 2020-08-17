@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+  overflow-x: hidden;
+}
+.btn2{  
+  text-align: center;
+  transform: translate(-2, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: Montserrat;
+  padding: 10px 20px;
+  border-radius: 5;
+  cursor: pointer;
+  border-color: black;
+  margin-top: 25px;
+  margin-left: -5px;
+
+}
+.btn2:hover {
+  color: white;
+  background-color: black;
+  transition: background-color .5s ease-in;
+}
+
+@media screen and (max-width: 700px){
+    .top{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    max-height: 400px;
+    position: relative;
+    top: -95px;
+    left: 20px;
+}
+
+.booking .middle{
+
+    display: block;
+    position: relative;
+    top: -200px;
+    width: 100%;
+    height: 350px;
+    max-width: 700px;
+    min-width: 300px;
+}
+.booking{
+    position: relative;
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+    max-width: 700px;
+    min-height: 350px;
+
+}
+.booking .centered {
+    position: absolute;
+    bottom: 84%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .booking .btn{
+    position: absolute;
+    bottom: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(0, 0, 0);
+    color: #AE7B50;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .info{
+    display: flex;
+    background-color: black;
+    position: relative;
+    top: -200px;
+    max-width: 700px;
+    min-width: 300px;
+    padding-bottom: 10px;
+  }
+  .info .name{
+    flex-direction: column;
+    order: 1;
+    color: #AE7B50;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 2rem;
+    padding-left: 3rem;
+  }
+  .info .profile{
+    order: 3;
+      max-width: 40%;
+      padding: 15px;
+      padding-left: 0px;
+      margin-left: -20px;
+      max-height: 200px;
+      max-width: 140px;
+      margin-top: 40px;
+      margin-right: 10px;
+  
+
+    
+  }
+  .info .message {
+    font-size: 12px;
+    color: white;
+    font-weight: 100;
+    padding: 10px ,10px, 10px, 0;
+  }
+  .firstHR{
+    max-width: 300px;
+    border: 1px solid  #ffffff;;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+    margin-bottom: 10px;    
+
+  }
+  .secondHR{
+    max-width: 300px;
+    border: 1px solid  #ffffff;;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+
+  }
+
+  .pricing {
+    position: relative;
+    text-align: center;
+    background-color: black;
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+    max-width: 700px;
+    min-height: 350px;
+    top: -100px;
+    padding-bottom: 10px;
+  
+    
+  }
+  .pricing .f {
+    color: #AE7B50;
+    font-size: 30px;
+    text-transform: uppercase;
+
+  }
+  .priceList li {
+  display: inline-block;
+  font-weight: 100;
+  font-size: 14px; 
+  padding: 15px;
+}
+.pricing img {
+  padding-right: 5px;
+  vertical-align: -10px;
+  }
+ .pricing .blade {
+    margin-left: -25px;
+  }
+  .pricing h1 {
+  display: inline-block;
+  font-size: 25px;
+  padding-right: 20px;
+  padding-left: -15px;
+  vertical-align: -2.5px;
+  }
+
+  .Instafeed { 
+    position: relative;
+    text-align: center;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    max-width: 700px;
+    min-width: 300px;
+    top: -130px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: -10px;
+    margin-bottom: -140px;
+
+  }
+  .Instafeed h1 {
+    color: #AE7B50;
+    font-size: 20px;
+  }
+  .Instafeed p {
+    font-size: 15px;
+  }
+  .Instafeed img {
+    width: 70%;
+    padding: 20px;
+  }
+  footer{
+    overflow-x: hidden;
+    font-family: Montserrat;
+    font-weight: bold;
+    bottom: 100px;
+    margin-bottom: 0;
+    left: auto;
+    right: auto;
+    height: 150px;
+    min-width: 300px;
+    max-width: 700px;;
+    overflow: hidden;
+    text-align: center;
+    background: #AE7B50;
+    padding: 20px 0;
+    text-align: left;
+    padding: 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+  
+  }
+  footer a{
+    text-decoration: none;
+    color: black;
+  }
+  footer .copyright {
+    font-size: 14px;
+    vertical-align: middle;
+    
+  }
+  
+}
+
+@media screen and (min-width: 700px){
+    .top{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 300px;
+    max-width: 350px;
+    max-height: 400px;
+    min-height: 400px;;
+
+    position: relative;
+    top: -100px;
+    left: 20px;
+
+    
+}
+.booking .middle{
+    max-width: 700px;
+    min-width: 300px;
+    display: block;
+    position: relative;
+    top: -200px;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 5%;
+}
+
+.booking{
+    position: relative;
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+
+}
+.booking .centered {
+    position: absolute;
+    bottom: 80%;
+    left: 50%;
+    transform: translate(-40%, -60%);
+  }
+  .booking .btn{
+    position: absolute;
+    bottom: 75%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(0, 0, 0);
+    color: #AE7B50;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .info{
+
+    display: flex;
+    position: relative;
+    max-width: 700px;
+    min-width: 300px;
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    position: relative;
+    top: -200px;
+
+
+  }
+  .info .name{
+    color: #AE7B50;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 2rem;
+    padding-left: 4rem;
+  }
+  .info .profile{
+      max-width: 40%;
+      padding-right: 3rem;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+
+      height: 350px;
+
+      
+  }
+  .info .message {
+    font-size: 22px;
+    color: white;
+    font-weight: 100;
+    padding: 20x ,20px, 20px, 0;
+  }
+  .firstHR{
+    max-width: 300px;
+    border: 1px solid  #ffffff;;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+    margin-bottom: 10px;    
+
+  }
+  .secondHR{
+    max-width: 300px;
+    border: 1px solid  #ffffff;;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+
+  }
+
+  .pricing {
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    background-color: black;
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+    max-width: 700px;
+    min-height: 350px;
+    top: -100px;
+    padding-bottom: 10px;
+
+  
+    
+  }
+  .pricing .f {
+    color: #AE7B50;
+    font-size: 30px;
+    text-transform: uppercase;
+
+  }
+  .priceList li {
+  display: inline-block;
+  font-weight: 100;
+  font-size: 14px; 
+  padding: 15px;
+}
+.pricing img {
+  padding-right: 5px;
+  vertical-align: -10px;
+  }
+ .pricing .blade {
+    margin-left: -25px;
+  }
+  .pricing h1 {
+  display: inline-block;
+  font-size: 25px;
+  padding-right: 20px;
+  padding-left: -15px;
+  vertical-align: -2.5px;
+  }
+
+  .Instafeed { 
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    max-width: 700px;
+    min-width: 300px;
+    top:-90px;
+    padding-bottom: 20px;
+    margin-top: -40px;
+    margin-bottom: -90px;
+
+  }
+  .Instafeed h1 {
+    color: #AE7B50;
+    font-size: 20px;
+  }
+  .Instafeed p {
+    font-size: 15px;
+  }
+  .Instafeed img {
+    width: 70%;
+    padding: 20px;
+  }
+  footer{
+    overflow-x: hidden;
+
+    font-family: Montserrat;
+    font-weight: bold;
+    position: relative;
+    bottom: 0;
+    margin-bottom: 0;
+    left: auto;
+    right: auto;
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+    background: #AE7B50;
+    padding: 20px 0;
+    text-align: center;
+    padding: 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+  
+  }
+  footer a{
+    text-decoration: none;
+    color: black;
+  }
+  footer .copyright {
+    font-size: 14px;
+    vertical-align: middle;
+    
+  }
+  
+}
+
+
